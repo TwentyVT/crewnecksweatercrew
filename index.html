@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <!--link to font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
-    <!-- Font Awesome -->
+    <!-- FontAwesome -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/fontawesome.css" />
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -17,23 +18,28 @@
         crossorigin="anonymous">
     <!-- Header Font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- Hover -->
+    <link href="assets/css/hover-min.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <!-- First Header -->
+
+    <!-- Logo & navbar -->
     <div>
-        <img class="logo" src="assets/Images/logo.png">
+        <img class="logo animated pulse" src="assets/Images/logo.png">
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="btn btn-success" href="#">About Us</a>
+                <a class="btn btn-info animated fadeIn hvr-glow" href="#">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="btn btn-success" href="#">Contact Us</a>
+                <a class="btn btn-info animated fadeIn hvr-glow" href="#">Contact Us</a>
             </li>
         </ul>
     </div>
-    <!-- End of first Header -->
+
 
     <!-- carousel header -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -65,16 +71,15 @@
     <!-- End of Carousel -->
 
     <!-- Main Content where user inputs data -->
-
     <div class="container-fluid content-container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="sub-header3">Start your first search!</h2>
+                <h2 class="sub-header3">Begin your Journey to your Dream Job</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <h5 class="sub-header4">At Dream Job Finder, we will help you find job openings from top tier job sites</h4>
+                <h5 class="sub-header4">At DreamJob Finder, we will help you find job openings from top tier job sites</h4>
             </div>
         </div>
         <form>
@@ -91,36 +96,47 @@
                     <input type="text" class="form-control" placeholder="Location">
                 </div>
                 <div class="col-md-4">
-                    <button type="button" class="btn btn-success">Submit</button>
+                    <button type="button" class="btn btn-info">Submit</button>
                     <div class="col-md-3">
                     </div>
                 </div>
             </div>
         </form>
 
+        <!-- Header for main process -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="sub-header3">What we do for you</h2>
+            </div>
+        </div>
+
         <!-- Main Content that explains the process -->
         <div class="row icons">
+
             <div class="col-md-2"></div>
             <!--Empty Space-->
             <div class="col-md-2">
-                <i class="fas fa-search fa-6x"></i>
+                <i class="fas fa-search fa-6x hvr-grow"></i>
             </div>
             <div class="col-md-2">
-                <i class="fas fa-binoculars fa-6x"></i>
+                <i class="fas fa-binoculars fa-6x hvr-grow"></i>
             </div>
             <div class="col-md-2">
-                <i class="fas fa-map-marked-alt fa-6x"></i>
+                <i class="fas fa-map-marked-alt fa-6x hvr-grow"></i>
             </div>
             <div class="col-md-2">
-                <i class="far fa-newspaper fa-6x"></i>
+                <i class="far fa-newspaper fa-6x hvr-grow"></i>
             </div>
             <div class="col-md-2"></div>
             <!--Empty Space-->
         </div>
+
         <!-- Description of process -->
         <div class="row">
+
             <div class="col-md-2"></div>
             <!--Empty Space-->
+
             <div class="col-md-2">
                 <h4 class="description">Search Keyword</h4>
             </div>
@@ -131,15 +147,18 @@
                 <h4 class="description">Find Nearest Location</h4>
             </div>
             <div class="col-md-2">
-                <h4 class="description">We Post</h4>
+                <h4 class="description">Choose your Path</h4>
             </div>
             <div class="col-md-2"></div>
             <!--Empty Space-->
+
         </div>
+
         <!-- Description of process -->
         <div class="row">
             <div class="col-md-2"></div>
             <!--Empty Space-->
+
             <div class="col-md-2">
                 <p class="sub-description">You search the keyword of the career you want to get in.</p>
             </div>
@@ -152,24 +171,62 @@
             <div class="col-md-2">
                 <p class="sub-description">We post the results from top tier jobs.</p>
             </div>
+
             <div class="col-md-2"></div>
             <!--Empty Space-->
+        </div>
 
-            <!-- JOB POSTING CONTAINER -->
-            <div id="job-title"></div>
-            <div id="location"></div>
-            <div id="job-description"></div>
-            <div id="expected-salary"></div>
-            <div id="duration"></div>
-            <div id="hours-needed"></div>
+        <!-- Top Skills in the US -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="sub-header3">Top In-Demand Jobs in the US</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <!--Empty Space-->
+                <div class="col-md-2 shadow p-3 mb-5 mr-4 bg-white rounded">
+                    <i class="fas fa-pencil-alt fa-3x pencil ml-5 mb-2 subicons"></i>
+                    <h5 class="sub-header5">Copywriter</h5>
+                </div>
+                <div class="col-md-2 shadow p-3 mb-5 mr-4 bg-white rounded">
+                    <i class="fas fa-laptop fa-3x ml-5 mb-2 subicons"></i>
+                    <h5 class="sub-header5">Web Developer</h5>
+                </div>
+                <div class="col-md-2 shadow p-3 mb-5 mr-4 bg-white rounded">
+                    <i class="fas fa-chart-line fa-3x ml-5 mb-2 subicons"></i>
+                    <h5 class="sub-header5">Digital Marketer</h5>
+                </div>
+                <div class="col-md-2 shadow p-3 mb-5 mr-4 bg-white rounded">
+                    <i class="fas fa-users fa-3x ml-5 mb-2 subicons"></i>
+                    <h5 class="sub-header5">Virtual Assistant</h5>
+                </div>
+                <div class="col-md-2 shadow p-3 mb-5 mr-4 bg-white rounded">
+                    <i class="fas fa-palette fa-3x ml-5 mb-2 subicons"></i>
+                    <h5 class="sub-header5">Graphic Designer</h5>
+                </div>
+            </div>
+
 
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+        <!-- JOB POSTING CONTAINER -->
+        <div id="job-title"></div>
+        <div id="location"></div>
+        <div id="job-description"></div>
+        <div id="expected-salary"></div>
+        <div id="duration"></div>
+        <div id="hours-needed"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
