@@ -2,7 +2,7 @@
 .main-header {
     
     font-family: 'Noto Serif', serif;
-    font-size: 49px;
+    font-size: 55px;
     text-align: left;
     color: white;
     margin-bottom: 13%;
@@ -10,10 +10,12 @@
     margin-left: 5%;
 }
 
+
+
 .sub-header {
     font-family: 'Noto Serif', serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 10%;
     bottom: 40%;
     position: absolute;
@@ -22,7 +24,7 @@
 .main-header2 {
     
     font-family: 'Noto Serif', serif;
-    font-size: 49px;
+    font-size: 55px;
     text-align: left;
     color: white;
     margin-bottom: 20%;
@@ -33,9 +35,9 @@
 .sub-header2 {
     font-family: 'Noto Serif', serif;
     text-align: left;
-    font-size: 25px;
-    margin-left: 33%;
-    bottom: 53%;
+    font-size: 28px;
+    margin-left: 36%;
+    bottom: 50%;
     position: absolute;
 }
 
@@ -97,9 +99,43 @@
     margin-bottom: 1%;
     float: right;
 }
+
+/* News.html */
+
+.main-header-news {
+    font-family: 'Noto Serif', serif;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 8%;
+    position: relative;
+    margin-left: 12%;
+}
+
+.sub-header-news {
+    font-family: 'Noto Serif', serif;
+    text-align: left;
+    font-size: 28px;
+    margin-left: 18%;
+    bottom: 20%;
+    position: absolute;
+
+}
+
+.sub-header-news3 {
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.news-container{ 
+    margin-right: 2%;
+}
+
 /* container */
 
 .content-container {
+    
     margin-bottom: 30%;
 }
 
@@ -143,5 +179,10 @@
     margin-right: auto;
     width: 50%;
     color: 	#48D1CC;
+}
+
+.globe {
+    color: 	#48D1CC;
+    margin-top: 20%;
 }
 
