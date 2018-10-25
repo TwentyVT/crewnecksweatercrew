@@ -10,20 +10,6 @@
     margin-left: 5%;
 }
 
-.main-headerblog {
-    
-    
-    font-family: 'Noto Serif', serif;
-    font-size: 55px;
-    text-align: left;
-    color: black;
-    margin-bottom: 13%;
-    position: relative;
-    margin-left: 10%;
-    
-    
-}
-
 
 
 .sub-header {
@@ -249,19 +235,6 @@
     color: 	#48D1CC;
     margin-top: 20%;
 }
-#job1 {
-    height: 500px;
-    width: 40%;
-}
-#job2 {
-    height: 500px;
-    width: 40%;
-}
-#newz {
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Noto Serif', serif;
-
 
 .nyc {
     height: 500px;
@@ -278,46 +251,3 @@
     margin-top: 20%;
 }
 
-
-}
-.newslink:link {
-    background-color: #48D1CC;
-    color: white;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-
-.newslink:hover, .newslink:active {
-    background-color: navy;
-    color: white;
-}
-.newslink:visited {
-    color: white;
-}
-#job-description {
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Noto Serif', serif; 
-}
-#job-description2 {
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Noto Serif', serif; 
-}
-.linkbutton {
-    background-color: #48D1CC;
-    color: white;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-.linkbutton:hover, .linkbutton:active {
-    background-color: navy;
-    color: white;
-}
-.linkbutton:visited {
-    color: white;
-}
