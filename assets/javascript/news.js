@@ -14,21 +14,21 @@ $(document).ready(function news() {
         for (i = 0; i < answerThree.length; i++) {
 
             var newstitle = answerThree[i].title
-
             var newsSource = answerThree[i].source.name
-
             var newsURL = answerThree[i].url
-
             var newsDesc = answerThree[i].description
+            var linkURL = $("<a href=" + newsURL + "></a>")
+            linkURL.attr("target", "blank")
+            linkURL.addClass("newslink")
+            linkURL.text(newstitle)
 
-            var titleDisplay = $("<p>").text("Title: " + newstitle)
+            var sourceDisplay = $("<p>").text("Source: " + newsSource)
 
-            var urlDisplay = $("<p>").html("<a href=" + newsURL + "> " + newstitle + "</a>")
+            var urlDisplay = $("<p>").html(linkURL)
 
             var descDisplay = $("<p>").text("Description: " + newsDesc)
-
-
-            $("#newz").append(urlDisplay, newsSource, descDisplay)
+            
+            $("#newz").append(urlDisplay, sourceDisplay, descDisplay)
         }
     })
 })
