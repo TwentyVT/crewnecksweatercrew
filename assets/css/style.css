@@ -10,6 +10,20 @@
     margin-left: 5%;
 }
 
+.main-headerblog {
+    
+    
+    font-family: 'Noto Serif', serif;
+    font-size: 55px;
+    text-align: left;
+    color: black;
+    margin-bottom: 13%;
+    position: relative;
+    margin-left: 10%;
+    
+    
+}
+
 
 
 .sub-header {
@@ -91,13 +105,22 @@
 
 .sub-description2 {
     text-align: center;
+    font-family: 'Noto Serif', serif;
 }
 
-.nav-item {
-    margin-top:6%;
-    margin-right:2%;
-    margin-bottom: 1%;
-    float: right;
+.nav-button {
+    margin-top:11%;
+    margin-bottom: 8%;
+    margin-right: 5px;
+}
+.page-footer{
+
+    background-color: #3E4551;
+}
+
+.foot-header {
+    color: white;
+    font-family: 'Noto Serif', serif;
 }
 
 /* News.html */
@@ -132,11 +155,52 @@
     margin-right: 2%;
 }
 
+
+/* Blog HTML */
+.sub-header-blog{
+
+    font-family: 'Noto Serif', serif;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.blog-description {
+    
+    margin-left: 2%;
+
+}
+
+.blog-subheader {
+    
+    font-family: 'Noto Serif', serif;
+    color: 	#48D1CC;
+    font-size: 30px;
+    margin-left: 30%;
+}
+
+.blog-subheader2 {
+    
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    margin-left: 21%;
+}
+
+.blog-subdescription{
+    
+    text-align: justify;
+    font-family: 'Noto Serif', serif;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+
 /* container */
 
 .content-container {
     
-    margin-bottom: 30%;
+    margin-bottom: 10%;
 }
 
 .job-container {
@@ -182,6 +246,21 @@
 }
 
 .globe {
+    color: 	#48D1CC;
+    margin-top: 20%;
+}
+
+.nyc {
+    height: 500px;
+    width: 600px;
+}
+
+.work {
+    height: 500px;
+    width: 600px;
+}
+
+.trophy {
     color: 	#48D1CC;
     margin-top: 20%;
 }
