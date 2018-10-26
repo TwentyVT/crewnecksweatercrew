@@ -79,7 +79,7 @@ $("#submit").on("click", function () {
                 $("#job-description").append(div2)
 
                 button.attr("id", "button" + value)
-                button.addClass("linkbutton")
+                button.addClass("btn btn-info")
                 button.val(value)
                 button.text("click to see job description")
                 button.on("click", function () {
@@ -96,7 +96,7 @@ $("#submit").on("click", function () {
                 })
                 $("#job-description").append(button)
                 button2.attr("id", "button2" + value)
-                button2.addClass("linkbutton")
+                button2.addClass("btn btn-info")
                 button2.val(value)
                 button2.text("click to apply")
                 button2.on("click", function () {
@@ -109,7 +109,7 @@ $("#submit").on("click", function () {
                 })
 
                 button3.attr("id", "button3" + value)
-                button3.addClass("linkbutton")
+                button3.addClass("btn btn-info")
                 button3.val(company)
                 button3.text("click to see tweets about " + company)
                 button3.on("click", function () {
@@ -161,6 +161,7 @@ $("#submit").on("click", function () {
 
                 })
                 $("#job-description").append(button3)
+                $("#job-description").append("<br>")
                 $("#job-description").append(button2)
                 $("#job-description").css("font-size", "10px;")
             }
@@ -208,7 +209,7 @@ $("#submit").on("click", function () {
                 divg3.attr("id", ("g3" + value))
                 $("#job-description2").append(divg3)
                 buttong.attr("id", "buttong" + value)
-                buttong.addClass("linkbutton")
+                buttong.addClass("btn btn-info")
                 buttong.val(value)
                 buttong.text("click to see job description")
                 buttong.on("click", function () {
@@ -226,7 +227,7 @@ $("#submit").on("click", function () {
                 })
                 $("#job-description2").append(buttong)
                 buttong2.attr("id", "buttong2" + value)
-                buttong2.addClass("linkbutton")
+                buttong2.addClass("btn btn-info")
                 buttong2.val(value)
                 buttong2.text("click to see how to apply")
                 buttong2.on("click", function () {
@@ -241,14 +242,14 @@ $("#submit").on("click", function () {
                     $("#g3" + value).append(Gapp)
                     }
                     else{
-                        $(this).text("click to hide how to apply")  
+                        $(this).text("click to see how to apply")  
                         $("#g3" + value).empty()
                     }
 
                 })
 
                 buttong3.attr("id", "buttong3" + value)
-                buttong3.addClass("linkbutton")
+                buttong3.addClass("btn btn-info")
                 buttong3.val(companytwo)
                 buttong3.text("click to see tweets about " + companytwo)
                 buttong3.on("click", function () {
@@ -256,9 +257,11 @@ $("#submit").on("click", function () {
                     var q = $(this).val()
                     var y = $(this).attr("id")
                     var x = y.substring(8)
+                    var tbutton = $(this)
 
                     if (text == ("click to see tweets about " + q)) {
-                        $(this).text("click to hide tweets")
+                        tbutton.text("click to hide tweets")
+                        
 
 
                         console.log(q)
@@ -293,7 +296,8 @@ $("#submit").on("click", function () {
 
                         })
                     }
-                    else {
+                    else if(text == ("click to hide tweets"))
+                    {
                         $(this).text("click to see tweets about " + q)
                         $("#g2" + x).empty()
                     }
@@ -301,7 +305,7 @@ $("#submit").on("click", function () {
                 })
                 $("#job-description2").append(buttong3)
                 $("#job-description2").append(buttong2)
-                // $("#job-description2").css("font-size", "10px;")
+                
             }
         }
 
